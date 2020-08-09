@@ -1,7 +1,7 @@
 # BroBot
 Valorant BroBot
 
-#Bot Commands
+# Bot Commands
 Here are the bot commands for BroBot:
 1. !random = BroBot will print a random message (does not have really a lot of messages)
 2. !games = BroBot will print the games the !lfg commands work for
@@ -19,9 +19,9 @@ Here are the bot commands for BroBot:
 14. !connect4ai = Start a connect4 match against the ai
 15. !moveconnect4ai x = enter a piece into the x column (1-6)
 
-#Connect4ai
+# Connect4ai
 The ai uses Pillow to create the image for the game. It extracts data from the image every time a move is made and saves the game in a .png format.
 The ai is made using minimax with alpha beta pruning with the depth of 7. It can still be optimized using bitmaps instead of the 2d array which may make it run faster in the calculations.
 
-#Database
+# Database
 It uses the Mongo database server, basic stuff, nothing too big.
