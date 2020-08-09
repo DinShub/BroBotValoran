@@ -1,4 +1,4 @@
-# BroBotValoran
+# BroBot
 Valorant BroBot
 
 #Bot Commands
