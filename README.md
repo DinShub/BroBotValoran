@@ -1,5 +1,22 @@
 # BroBot
-Valorant BroBot
+
+# Valorant
+Valorant is the latest game from Riot. It is a 5 vs 5 Tactical shooters with Agents and economy styled gameplay. Users play as an agent that has special abilities
+and must choose a right composition to win against the enemy team. Teamplay is the most important part of this game, that is why I made a bot to assist players
+with finding teammates to play with, thus making callouts, team composition and similar ranks easier to handle rather than playing with random people.
+
+# The Bot
+This bot is for my personal server for the game Valorant.
+The bot is made for easier LFG (Looking for a group) access and for some small minigames.
+The main idea is that a user can use the command !lfg in the channel named LFG to annouce that he is looking for a group, in a addition he will get a special
+role called LFG to be shown in a different users list that he is looking people to play with. When the user uses !lfg, players who are already playing (checked if they
+are in the Valorant voice channels) will be tagged that a user is looking for a group.
+In a addition to the lfg command, users who are playing and are in the Valorant voice channel get assigned a special role called Playing Valorant with the channel number 
+and are in a list to show other users that there are people who are playing for easier access to find groups.
+Another command is !lfp (looking for players) that users can use to get a list of the people who are in the LFG list, and the people in that list will also be pinged 
+that a group is looking for players, thus notifing them that they can join a group to play with.
+There is also a point system which works with a database to save the points and users can also set a main (!SetMain) agent so other users can find players (!WhosMain)
+to complete their group composition.
 
 # Bot Commands
 Here are the bot commands for BroBot:
